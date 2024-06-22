@@ -22,6 +22,7 @@
     display: flex;
     flex-wrap: wrap;
     margin-left:5px ;
+    flex-direction: row;
    }
      .about-state{
       font-size:25px ;
@@ -68,7 +69,16 @@
       
       /* Tablet device */
       @media screen and (min-width: 769px) and (max-width: 992px) {
-        
+        .state-img{
+          width:600px ;
+        }
+        .intro-img{
+          
+        }
+        .subimg{
+          margin-bottom: 10px;
+          
+        }
       }
         /* Large device */
         @media screen and (min-width: 993px) and (max-width: 1250px) {
@@ -98,11 +108,11 @@
     </div>
     <div class="content">
       <h1 class="heading ">Maharastra</h1>
-      <img src="./img/team/maha.jpg"  class="state-img "/>
+      <img src="./img/team/maha.jpg" class="state-img "/>
     <div class="intro-img">
-     <img src="./img/team/folk-dance-lavani-dance.jpg" width="400px"/>
-     <img src="./img/team/food.jpeg"  width="400px" />
-     <img src="./img/team/gudi-padwa-festival1.jpg" width="400px" />
+     <img src="./img/team/folk-dance-lavani-dance.jpg" width="400px" class="subimg"/>
+     <img src="./img/team/food.jpeg"  width="400px" class="subimg" />
+     <img src="./img/team/gudi-padwa-festival1.jpg" width="400px" class="subimg" />
     </div>
       <p class="about-state">Maharashtra is a state in the western peninsular region of India occupying a substantial portion of the Deccan Plateau. It is bordered by the Arabian Sea to the west, the Indian states of Karnataka and Goa to the south, Telangana to the southeast and Chhattisgarh to the east, Gujarat and Madhya Pradesh to the north, and the Indian union territory of Dadra and Nagar Haveli and Daman and Diu to the northwest. Maharashtra is the second-most populous state in India.
             <br/>
